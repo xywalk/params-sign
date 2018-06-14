@@ -1,0 +1,33 @@
+{
+  "name": "params-sign",
+  "description": "js function for hashing messages with MD5",
+  "version": "1.0.0",
+  "author": "xywalk",
+  "tags": [
+    "md5",
+    "hash",
+    "encryption",
+    "message digest"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pvorb/node-md5.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "webpack": "webpack -p"
+  },
+  "dependencies": {
+    "charenc": "~0.0.1",
+    "crypt": "~0.0.1",
+    "is-buffer": "~1.1.1",
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "webpack": "~2.4.1"
+  },
+  "optionalDependencies": {},
+  "license": "BSD-3-Clause"
+}
